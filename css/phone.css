@@ -2,14 +2,29 @@
 #navbar{
     flex-direction: column;
 }
+#navbar ul li{
+    font-size: 18px;
+}
+#navbar ul li a{
+
+    padding: 5px 10px;
+
+}
 /* home section */
 
 #home{
     height: 324px;
+    padding: 3px 40px;
+    justify-content: center;
+    align-items: center;
 }
 #home::before{
     height: 494px;
 }
+#home p{
+    font-size: 13px;
+}
+
 
 /* services section */
 
@@ -23,9 +38,21 @@
 
 /* client section */
 #clients{
-    overflow: hidden;
+    flex-wrap: wrap;
 }
-
+#clients img{
+    width: 85px;
+    padding: 0px 16px;
+  
+}
+/* .client-items {
+    padding: 0px 16px;
+} */
 /* contact us section */
 
 /* footer */
+
+/* utility */
+.h-primary{
+    font-size: 1.8rem;
+}
